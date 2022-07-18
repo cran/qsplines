@@ -1,7 +1,7 @@
 Type: Package
 Package: qsplines
 Title: Quaternions Splines
-Version: 0.1.0
+Version: 1.0.0
 Authors@R: c(
     person("Stéphane", "Laurent", , "laurent_step@outlook.fr", role = c("aut", "cre")),
     person("Matthias", "Geier", role = "aut",
@@ -16,15 +16,16 @@ Description: Provides routines to create some quaternions splines:
 License: GPL-3
 URL: https://github.com/stla/qsplines
 BugReports: https://github.com/stla/qsplines/issues
+LinkingTo: Rcpp, BH
 Depends: onion
-Imports: shiny, stats, utils
+Imports: shiny, utils, Rcpp
 Suggests: rgl
 Encoding: UTF-8
 RoxygenNote: 7.2.0
-NeedsCompilation: no
-Packaged: 2022-06-27 08:54:43 UTC; SDL96354
+NeedsCompilation: yes
+Packaged: 2022-07-18 13:04:39 UTC; SDL96354
 Author: Stéphane Laurent [aut, cre],
   Matthias Geier [aut] (author of the Python library 'splines')
 Maintainer: Stéphane Laurent <laurent_step@outlook.fr>
 Repository: CRAN
-Date/Publication: 2022-06-28 15:30:02 UTC
+Date/Publication: 2022-07-18 13:20:02 UTC
